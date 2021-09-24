@@ -1,8 +1,6 @@
 #clockContainer{
     position: relative;
     margin: auto;
-    /* height: 40vw;
-    width: 40vw; */
     height: 600px;
     width: 600px;
     background: url(clock2.png) no-repeat;
@@ -20,8 +18,6 @@
     height: 18%;
     top: 32.2%;
     left: 49.33%;
-    /* opacity: 4; */
-    /* display: none; */
 }
 #minute{
     width: 0.9%;
@@ -29,7 +25,6 @@
     top: 26.2%;
     left: 49.54%;
     opacity: 4;
-    /* display: none; */
 }
 #second{
     width: 0.4%;
@@ -37,7 +32,7 @@
     top: 21.2%;
     left: 49.79%;
     opacity: 4;
-    /* display: none; */
+    background:red;
 }
 #clockContainer .circle{
     position: absolute;
